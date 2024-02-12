@@ -1,1 +1,25 @@
 @import '~bootstrap/scss/bootstrap';
+
+header {
+    #search {
+        border: none;
+        border-bottom: 3px solid #0082F9;
+        text-align: end;
+    }
+
+    li {
+        color: gray;
+        font-weight: bold;
+    }
+
+    .header-top {
+        background-color: #0082F9;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    }
+}
