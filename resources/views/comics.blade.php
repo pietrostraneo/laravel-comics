@@ -30,7 +30,7 @@
         @include('partials.banner')
 
     </main>
-
+    @include('partials.footer')
 </body>
 
 </html>

@@ -16,12 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $links = config('link');
     $banner = config('banner');
-    return view('welcome', compact('links', 'comics', 'banner'));
+    $footerlink = config('footerlink');
+    $socials = config('socials');
+    return view('welcome', compact('links', 'banner', 'footerlink', 'socials'));
 })->name('home');
 
 Route::get('/comics', function () {
     $links = config('link');
     $comics = config('comics');
     $banner = config('banner');
-    return view('comics', compact('links', 'comics', 'banner'));
+    $footerlink = config('footerlink');
+    $socials = config('socials');
+    return view('comics', compact('links', 'comics', 'banner', 'footerlink', 'socials'));
 })->name('comics');
