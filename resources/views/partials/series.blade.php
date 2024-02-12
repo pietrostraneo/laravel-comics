@@ -8,7 +8,7 @@
         @endforeach
     </div>
     <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center pb-4">
             <button class="btn btn-primary">LOAD MORE</button>
         </div>
     </div>

@@ -27,6 +27,8 @@
             @include('partials.series')
         </div>
 
+        @include('partials.banner')
+
     </main>
 
 </body>
