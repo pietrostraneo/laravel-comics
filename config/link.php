@@ -1,34 +1,44 @@
 <?php
 return [
     [
-        'label' => 'CHARACTERS'
+        'label' => 'CHARACTERS',
+        'url' => '/comics'
     ],
     [
-        'label' => 'COMICS'
+        'label' => 'COMICS',
+        'url' => '/comics'
     ],
     [
-        'label' => 'MOVIES'
+        'label' => 'MOVIES',
+        'url' => '/comics'
     ],
     [
-        'label' => 'TV'
+        'label' => 'TV',
+        'url' => '/comics'
     ],
     [
-        'label' => 'GAMES'
+        'label' => 'GAMES',
+        'url' => '/comics'
     ],
     [
-        'label' => 'COLLECTIBLES'
+        'label' => 'COLLECTIBLES',
+        'url' => '/comics'
     ],
     [
-        'label' => 'VIDEOS'
+        'label' => 'VIDEOS',
+        'url' => '/comics'
     ],
     [
-        'label' => 'FANS'
+        'label' => 'FANS',
+        'url' => '/comics'
     ],
     [
-        'label' => 'NEWS'
+        'label' => 'NEWS',
+        'url' => '/comics'
     ],
     [
-        'label' => 'SHOP'
+        'label' => 'SHOP',
+        'url' => '/comics'
     ],
 
 ];

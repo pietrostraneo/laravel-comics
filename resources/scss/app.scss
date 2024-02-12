@@ -7,9 +7,14 @@ header {
         text-align: end;
     }
 
-    li {
+    li a {
         color: gray;
         font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            color: #0082F9;
+        }
     }
 
     .header-top {
@@ -40,5 +45,28 @@ header {
         position: absolute;
         bottom: -30px;
         left: 100px;
+    }
+}
+
+.comics {
+    background-color: #1C1C1C;
+
+    .series {
+
+        h5 {
+            color: white;
+            margin-top: 10px;
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+        }
+    }
+
+    button {
+        padding: 5px 60px;
+        font-weight: bold;
+        border-radius: 0;
     }
 }

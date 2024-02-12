@@ -20,7 +20,7 @@
                 <nav>
                     <ul class="d-flex list-unstyled gap-3">
                         @foreach ($links as $item)
-                            <li>{{ $item['label'] }}</li>
+                            <li><a href="{{ $item['url'] }}">{{ $item['label'] }}</a></li>
                         @endforeach
                     </ul>
                 </nav>
