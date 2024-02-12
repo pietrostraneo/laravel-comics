@@ -23,3 +23,22 @@ header {
         }
     }
 }
+
+.jumbo {
+    background-image: url(/resources/img/jumbotron.jpg);
+    background-position-x: center;
+    position: relative;
+    height: 425px;
+
+    h5 {
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+        background-color: #0082F9;
+        padding: 10px 40px;
+        width: fit-content;
+        position: absolute;
+        bottom: -30px;
+        left: 100px;
+    }
+}
