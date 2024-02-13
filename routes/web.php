@@ -29,3 +29,20 @@ Route::get('/comics', function () {
     $socials = config('socials');
     return view('comics', compact('links', 'comics', 'banner', 'footerlink', 'socials'));
 })->name('comics');
+
+Route::get('/comics-details/{param}', function ($id) {
+    $links = config('link');
+    $comics = config('comics');
+    $banner = config('banner');
+    $footerlink = config('footerlink');
+    $socials = config('socials');
+
+    $comic = null;
+    foreach ($comics as $item) {
+        if ($item['id'] == $id) {
+            $comic = $item;
+        }
+    }
+
+    return view('details', compact('links', 'comic', 'banner', 'footerlink', 'socials'));
+})->name('details');

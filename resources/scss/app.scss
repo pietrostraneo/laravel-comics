@@ -46,6 +46,20 @@ header {
         bottom: -30px;
         left: 100px;
     }
+
+    img {
+        position: absolute;
+        bottom: -75px;
+        left: 100px;
+        width: 200px;
+        height: 300px;
+    }
+
+}
+
+.blueline {
+    background-color: #0082F9;
+    height: 100px;
 }
 
 .comics {
@@ -53,9 +67,14 @@ header {
 
     .series {
 
-        h5 {
+        a {
             color: white;
+            text-decoration: none;
             margin-top: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
 
         img {
@@ -126,6 +145,43 @@ footer {
         h4 {
             color: #0082F9;
             font-weight: bold;
+        }
+    }
+}
+
+.top-content {
+    padding: 85px;
+
+    .price {
+        background-color: #55BA59;
+        padding: 5px;
+        color: #BAFD93;
+        font-weight: bold;
+
+        .boldprice {
+            border-right: 1px solid black;
+        }
+    }
+}
+
+.bottom-content {
+    background-color: #F6F6F6;
+
+    .detail-banner {
+        padding: 0;
+        border-top: 1px solid gray;
+
+        .single-banner {
+            border-left: 1px solid gray;
+
+            &:last-child {
+                border-right: 1px solid gray;
+            }
+        }
+
+        img {
+            width: 20%;
+            filter: invert(15%);
         }
     }
 }

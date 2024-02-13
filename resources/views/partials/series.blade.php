@@ -3,7 +3,7 @@
         @foreach ($comics as $comic)
             <div class="col-12 col-md-2 series">
                 <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" class="img-fluid">
-                <h5>{{ $comic['title'] }}</h5>
+                <h5><a href="{{ route('details', ['param' => $comic['id']]) }}">{{ $comic['title'] }}</a></h5>
             </div>
         @endforeach
     </div>
