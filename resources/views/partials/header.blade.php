@@ -15,12 +15,16 @@
         <div class="row p-3">
             <div class="col-12 d-flex justify-content-between align-items-center">
                 <div class="logo">
-                    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo" class="img-fluid">
+                    <a href="/">
+                        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo" class="img-fluid">
+                    </a>
                 </div>
                 <nav>
                     <ul class="d-flex list-unstyled gap-3">
                         @foreach ($links as $item)
-                            <li><a href="{{ $item['url'] }}">{{ $item['label'] }}</a></li>
+                            <li><a href="{{ route($item['url']) }}"
+                                    class="{{ Route::currentRouteName() === $item['url'] ? 'activelink' : '' }}">{{ $item['label'] }}</a>
+                            </li>
                         @endforeach
                     </ul>
                 </nav>

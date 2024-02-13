@@ -2,16 +2,14 @@
 
 @section('content')
     <div class="jumbo">
-        <h5>HOMEPAGE</h5>
+        <h5>Characters</h5>
     </div>
     <div class="welcome">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1>Welcome on DC Official Website!</h1>
-                    <a href="/comics">
-                        <button class="btn btn-primary mt-4">SHOW COMICS</button>
-                    </a>
+                    <h1>Characters are not available :(</h1>
+                    <button class="btn btn-primary mt-4">Notify Me!</button>
                 </div>
             </div>
         </div>
